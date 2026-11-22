@@ -1,0 +1,30 @@
+{
+  "name": "cit-annual-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "description": "企业所得税年度汇算 MCP 最小闭环（select_forms v0.2）",
+  "type": "module",
+  "bin": {
+    "cit-annual-mcp": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "fixture": "tsx src/cli.ts",
+    "test:fixtures": "tsx src/cli.ts --all",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
+  }
+}
