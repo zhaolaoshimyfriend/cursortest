@@ -1,0 +1,117 @@
+{
+  "tax_year": 2025,
+  "taxpayer_id": "91330100MA2XXXXX1A",
+  "trial_balance": [
+    {
+      "account_code": "6001",
+      "account_name": "主营业务收入",
+      "opening_balance": 0,
+      "debit_amount": 0,
+      "credit_amount": 3200000.0,
+      "closing_balance": 0,
+      "account_level": 1,
+      "is_pl_account": true
+    },
+    {
+      "account_code": "6401",
+      "account_name": "主营业务成本",
+      "opening_balance": 0,
+      "debit_amount": 2100000.0,
+      "credit_amount": 0,
+      "closing_balance": 0,
+      "account_level": 1,
+      "is_pl_account": true
+    },
+    {
+      "account_code": "6602",
+      "account_name": "管理费用",
+      "opening_balance": 0,
+      "debit_amount": 420000.0,
+      "credit_amount": 0,
+      "closing_balance": 0,
+      "account_level": 1,
+      "is_pl_account": true
+    }
+  ],
+  "income_statement": [
+    {
+      "line_code": "operating_revenue",
+      "line_name": "营业收入",
+      "amount_current_year": 3200000.0,
+      "a100000_row": 1
+    },
+    {
+      "line_code": "operating_cost",
+      "line_name": "营业成本",
+      "amount_current_year": 2100000.0,
+      "a100000_row": 2
+    },
+    {
+      "line_code": "operating_profit",
+      "line_name": "营业利润",
+      "amount_current_year": 480000.0,
+      "a100000_row": 15
+    },
+    {
+      "line_code": "profit_before_tax",
+      "line_name": "利润总额",
+      "amount_current_year": 480000.0,
+      "a100000_row": 18
+    }
+  ],
+  "asset_register": [
+    {
+      "asset_id": "FA-2022-001",
+      "asset_name": "注塑机",
+      "asset_category": "fixed",
+      "tax_asset_class": "fa_production",
+      "acquisition_date": "2022-05-01",
+      "original_cost": 180000.0,
+      "tax_base": 180000.0,
+      "book_depr_current": 18000.0,
+      "tax_depr_current": 18000.0,
+      "is_accelerated": false
+    }
+  ],
+  "payroll_breakdown": [
+    {
+      "comp_type": "wages",
+      "book_amount": 960000.0,
+      "actual_amount": 960000.0,
+      "prior_carryover": 0
+    },
+    {
+      "comp_type": "welfare",
+      "book_amount": 80000.0,
+      "actual_amount": 80000.0,
+      "prior_carryover": 0
+    }
+  ],
+  "loss_carryforward": [
+    {
+      "loss_year": 2025,
+      "domestic_income": 480000.0,
+      "loss_amount": 0,
+      "already_offset": 0,
+      "remaining_loss": 0,
+      "loss_enterprise_type": "100",
+      "carryforward_years": "5"
+    }
+  ],
+  "prepaid_cit": [
+    {
+      "period_start": "2025-01-01",
+      "period_end": "2025-03-31",
+      "prepaid_tax": 5000.0,
+      "frequency": "quarter"
+    },
+    {
+      "period_start": "2025-04-01",
+      "period_end": "2025-06-30",
+      "prepaid_tax": 5000.0,
+      "frequency": "quarter"
+    }
+  ],
+  "rd_aux_ledger": [],
+  "donation_list": []
+}
